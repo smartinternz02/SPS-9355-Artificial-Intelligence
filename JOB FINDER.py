@@ -53,7 +53,7 @@ def inputRole(x):
     if(x == 2):
 
         skillslacking = list(int(input("Enter skills lacking  space").split("")))
-        length = len(skills_lacking)
+        length = len(skillslacking)
 
         while(length>0):
             for k in skillslacking:
@@ -75,11 +75,11 @@ def inputRole(x):
 	
     if(x == 3):
 
-        skills_lacking = list(int(input("Enter skills lacking  space").split("")))
-        length = len(skills_lacking)
+        skillslacking = list(int(input("Enter skills lacking  space").split("")))
+        length = len(skillslacking)
 
         while(length>0):
-            for k in skills_lacking:
+            for k in skillslacking:
 
                 if(k == 1):
 
